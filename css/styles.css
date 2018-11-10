@@ -1,0 +1,56 @@
+* {	margin: 0; padding: 0; font-family: arial, helvetica, sans-serif;}
+
+body {  background: url(../img/fav33.jpg) no-repeat; }
+
+#contenedor { width: 1100px; margin: 0 auto; }
+
+#cabecera { position: relative; padding-top: 20px; }
+
+#logo { width: 21%; float: left; color: #FFF; font-size: 25px; padding-left:4%; padding:5px;}
+
+/* estilos para el Menu. */
+#menu { width: 75%; float: right; text-align: right; }
+
+#menu ul { list-style-type: none; padding-top: 15px; }
+
+#menu ul li { display:inline-block; letter-spacing: 0.2px;}
+
+#menu ul li a{ color:#FFF; text-decoration: none; padding: 5px 18px; font-size: 15.5px; }
+
+#menu ul li a:hover , #menu ul li a#activo:hover { border-bottom: 2px solid #FFF; }
+
+#menu ul li a#activo { border-bottom: 1px solid #FFF; }
+
+/* estilos para el mensaje */
+#mensaje { clear: both; height: 340px; position: relative; text-align: center; color: #FFF;
+		  background: url(../img/nube-mensaje.png) no-repeat center 90px; }
+
+#mensaje h2 { position:relative; font-size: 32px; text-transform: uppercase; font-weight: normal; top:100px; }
+#mensaje p { position:relative; font-size: 18px; top:130px; letter-spacing: 4px; color:#FFFEE7;}
+#mensaje form { position:relative; color:#FFF; top:200px; text-decoration: none;
+			border:none solid #FFF; padding:10px 30px; font-size: 19px; letter-spacing: 2px;}
+
+/* estilos para el principal */
+#principal { padding: 20px 0; cursos:grab;}
+#principal img { width: 50%; float: right; margin-left: 20px; }
+#principal h1 { color:#1F37FF;	padding-left: 2px; margin-bottom: 12px; }
+#principal p{ font-size: 12px; color: #555; letter-spacing: 1px; line-height: 2; text-align: justify; }
+
+#principal hr { border:none; border-top: 1px solid #CCC; margin:25px 0; }
+
+#principal iframe { width: 72%; height: 300px;}
+
+#principal fieldset {width:25%; height:300px; float:right; border-color:inherit; padding: 3px 1px 0px 7px;}
+
+#principal legend {text-align: right; font-style:italic; font-size:20px; font-weigth: bold; color:#999;}
+
+#principal table {font-size:14px; color:#555; text-align: center; letter-spacing: 1px; line-height: 2; }
+
+/* #principal tr {padding: 2px 5px 5px 5px;} */
+/*Footer y redes*/
+
+#footer { background: #CCC; text-align: center; position: relative; }
+#footer p { color:#555; font-size:12px; }
+#footer img { position: absolute; right:5px; top:50%; margin-top: -8px; }
+
+#redes { position: fixed; right: 0; top:420px; width: 74px; }
